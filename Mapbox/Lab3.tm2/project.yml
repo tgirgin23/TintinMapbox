@@ -11,9 +11,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -33.0469
-  - 46.2558
-  - 4
+  - 2.1149
+  - 48.9216
+  - 10
 description: A map based on the famous Tintin comic book
 format: "png8:m=h"
 interactivity_layer: ''
