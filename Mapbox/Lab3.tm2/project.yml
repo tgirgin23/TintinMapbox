@@ -11,9 +11,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 2.1149
-  - 48.9216
-  - 10
+  - -46.582
+  - 40.9799
+  - 3
 description: A map based on the famous Tintin comic book
 format: "png8:m=h"
 interactivity_layer: ''
@@ -21,7 +21,13 @@ layers: null
 maxzoom: 22
 minzoom: 0
 name: Tintin
-source: "mapbox:///mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v5,tgirgin.c632ozf3"
 styles: 
   - style.mss
+  - country_label.mss
+  - place_label.mss
+  - land_cover.mss
+  - hillshade.mss
+  - road_label.mss
+  - water_label.mss
 template: ''
